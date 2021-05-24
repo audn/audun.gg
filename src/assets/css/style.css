@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animate {
+  @apply transition duration-200 ease-in-out;
+}
+.container {
+  @apply mx-auto;
+  max-width: 90rem !important;
+}
+.will-change{
+   will-change: transform;
+ }
+.scrollbar-none{
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar{
+  display: none;
+}
+::-moz-selection {
+  color: white;
+  background: #3371ff;
+}
+::selection {
+  color: white;
+  background: #3371ff;
+}
+body {
+  overflow-x: hidden;
+  color: #5C6C7C;
+  font-family: 'Inter', sans-serif;
+  background-color: #E3EBF4;
+}
